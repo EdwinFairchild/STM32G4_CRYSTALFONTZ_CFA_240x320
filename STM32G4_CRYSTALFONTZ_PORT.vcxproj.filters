@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{152b7eba-f446-43bc-894f-575d1f28b5d4}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{c6eaf4ac-dc12-4dea-a4e2-c55affe4f712}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{84f65092-7028-42e6-8711-90bb892489be}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{b0980439-5cee-43c3-81df-61bad5d5777a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files\LL">
+      <UniqueIdentifier>{6e36c2d0-f1be-40eb-b53e-45ed158f852e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{cd8a03dc-0292-423d-b21f-152d77920153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files\LL">
+      <UniqueIdentifier>{0d966944-9d55-45df-8dde-e2898e77ca09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{e36f5161-730f-47d9-a6a9-6bf2f45dcd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CL">
+      <UniqueIdentifier>{480c397a-0386-4138-9601-f311ee85515b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CL">
+      <UniqueIdentifier>{5ce3f03c-4ef3-4a5e-a90a-f0aa03e854ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="STM32G4_CRYSTALFONTZ_PORT.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="system_STM32G4xx.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\StartupFiles\startup_stm32g431xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_adc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_comp.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_cordic.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_crc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_crs.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dac.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_dma.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_exti.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_fmac.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_fmc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_gpio.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_hrtim.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_i2c.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_lptim.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_lpuart.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_opamp.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_pwr.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rcc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rng.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_rtc.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_spi.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_tim.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_ucpd.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_usart.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Src\stm32g4xx_ll_utils.c">
+      <Filter>Source files\Device-specific files\LL</Filter>
+    </ClCompile>
+    <ClInclude Include="STM32G4xx_hal_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_adc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_bus.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_comp.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_cordic.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_cortex.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_crc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_crs.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dac.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dma.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dmamux.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_exti.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_fmac.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_fmc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_hrtim.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_i2c.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_iwdg.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_lptim.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_lpuart.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_opamp.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_pwr.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rcc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rng.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_rtc.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_spi.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_system.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_tim.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_ucpd.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_usart.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_utils.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\STM32G4xxxx\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_wwdg.h">
+      <Filter>Header files\Device-specific files\LL</Filter>
+    </ClInclude>
+    <None Include="STM32G4_CRYSTALFONTZ_PORT-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="STM32G4_CRYSTALFONTZ_PORT-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\STM32_COMM_LIBS\CL_delay.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\STM32_COMM_LIBS\CL_printMsg.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\STM32_COMM_LIBS\CL_CFA_240x320.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\STM32_COMM_LIBS\tft_fontz\font-ascii-12x16.c">
+      <Filter>Source files\CL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_CONFIG.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_delay.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_printMsg.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_systemClockUpdate.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_CFA_240x320.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\tft_fontz\font-ascii-12x16.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\STM32_COMM_LIBS\CL_CFA_240x320_CONFIG.h">
+      <Filter>Header files\CL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

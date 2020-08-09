@@ -1,0 +1,33 @@
+VisualGDB/Debug/CL_CFA_240x320.o: F:/STM32_COMM_LIBS/CL_CFA_240x320.c \
+ F:/STM32_COMM_LIBS/CL_CFA_240x320.h F:/STM32_COMM_LIBS/CL_CONFIG.h \
+ F:/STM32_COMM_LIBS/CL_CFA_240x320_CONFIG.h \
+ ../STM32_COMM_LIBS/tft_fontz/font-ascii-12x16.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h \
+ c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h
+
+F:/STM32_COMM_LIBS/CL_CFA_240x320.h:
+
+F:/STM32_COMM_LIBS/CL_CONFIG.h:
+
+F:/STM32_COMM_LIBS/CL_CFA_240x320_CONFIG.h:
+
+../STM32_COMM_LIBS/tft_fontz/font-ascii-12x16.h:
+
+c:\sysgcc\arm-eabi\lib\gcc\arm-none-eabi\9.3.1\include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\stdint.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\machine\_default_types.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\features.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\_newlib_version.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_intsup.h:
+
+c:\sysgcc\arm-eabi\arm-none-eabi\include\sys\_stdint.h:

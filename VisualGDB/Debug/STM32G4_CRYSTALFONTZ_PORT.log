@@ -1,0 +1,5 @@
+﻿  STM32G4_CRYSTALFONTZ_PORT.c
+  Linking VisualGDB/Debug/STM32G4_CRYSTALFONTZ_PORT...
+  ------------------- Memory utilization report -------------------
+  Used FLASH: 6372 bytes out of 128KB (4%) [-216]
+  Used SRAM: 164 bytes out of 32KB (0%)
